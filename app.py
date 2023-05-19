@@ -59,7 +59,7 @@ class Window(QMainWindow) :
     def header(self) : 
         widget = QWidget()
         widget.setFixedHeight(500)
-        widget.setStyleSheet("background-color: #FF4F00")
+        widget.setStyleSheet("background-color: red")
         self.title = Text("Choose a song !",widget,40,'Open Sans')
         self.title.move(150,150)
         btn = Button("Update",widget)
